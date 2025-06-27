@@ -1,3 +1,4 @@
+```python
 # 2025Tianchi-LLM-QA
 
 from langchain.schema import Document
@@ -145,3 +146,4 @@ if __name__ == "__main__":
     bm25 = BM25(data)
     res = bm25.GetBM25TopK("根据2022年度报告，中国联通的企业定位是什么？", 10)
     print(res)
+```
